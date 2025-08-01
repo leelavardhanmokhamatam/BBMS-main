@@ -1,0 +1,58 @@
+.header-container{
+    background:red;
+}
+
+.header-container a{
+    color:white !important
+}
+.header-container  a.active{
+    color:white;
+    font-weight:bold;
+}
+.navbar-container{
+    position:relative;
+}
+.navbar-container > div {
+    position: absolute;
+    right: 10px;
+}
+.service-container{
+    background: red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.service-title{
+    color:white;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.service-card{
+    
+    display:flex;
+    justify-content:center;
+}
+.w-80{
+    width:80%;
+
+}
+.card-title{
+    color:red;
+    font-weight:bold;
+}
+.usefull-link > li {
+    list-style: none;
+    height:50px;
+    line-height:50px;
+}
+.usefull-link > li >a {
+    text-decoration:none;
+    color:red;
+    font-weight:bold;
+}
+.about-image{
+    width:700px;
+    height:700px;
+}
+.contect-container{
+    margin-top: 100px!important;
+}
